@@ -1,0 +1,128 @@
+*{
+    outline: 1px dotted pink;
+}
+
+body{
+    background-color: #000000;
+    font-family: open-sans;
+    font-weight: 400;
+}
+
+html,
+body,
+.view {
+  height: 100%;
+}
+
+.navbar {
+    background-color: transparent;
+  }
+  
+
+.topnav{  
+    display: inline-block;
+    justify-content: right;
+    /*padding-left: 400px;*/
+  }
+
+.navbar a{
+    padding: 20px;
+}
+  
+.logoviajes{  
+   width: 7%;
+  }
+
+.navbar-brand{ 
+    padding-left: 50px;
+}
+
+
+H3{
+    color: #FFFFFF;  
+}
+
+.avi{
+  
+    color: #FFFFFF;  
+    font-size: 30px;
+    justify-content: center;
+    background-color:#3abeff
+}
+
+.mount{
+    color: #FFFFFF;  
+    font-size: 30px;
+    justify-content: center;
+    background-color:#3abeff
+}
+
+
+.route{
+    color: #FFFFFF;  
+    font-size: 30px;
+    justify-content: center;
+    background-color:#3abeff
+}
+
+.col{
+    color:  #FFFFFF;  
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+
+.card{
+    height: 100%;
+    width: 100%;
+}
+
+.card-img-top{
+    height: 100%;
+}
+
+
+.card-body{
+    background-color:#3abeff
+}
+
+@media(max-width:767px) {
+    #hideonmobile1{display:none;}
+    }
+    
+label {
+    display:block; 
+    width:x; 
+    height:y;
+    text-align:left;
+}
+
+.send {
+align-items: left;
+}
+.containerfooter{
+    background-color:#3abeff;
+    padding-top: 30px;
+}
+
+.footertext{
+    font-weight: 300;
+    /*padding-top: 30px;*/
+    color: #FFFFFF;  
+    /*padding-left: 400px;*/
+}
+
+.icons{
+    display: inline;
+    color: #FFFFFF;  
+    justify-content: right;
+    font-size: 20px;
+    /*padding-left: 1200px;*/
+}
+
+.icons i{
+    padding-left: 10px;
+}
+.text-white{
+    color:  #FFFFFF;
+}
