@@ -1,6 +1,4 @@
-*{
-    outline: 1px dotted pink;
-}
+
 
 body{
     background-color: #000000;
@@ -38,8 +36,8 @@ body,
    width: 7%;
   }
 
-.navbar-brand{ 
-    padding-left: 50px;
+.navbrans{ 
+    color: #FFFFFF;  
 }
 
 
