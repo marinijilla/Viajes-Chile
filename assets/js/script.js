@@ -1,15 +1,31 @@
-$(document).ready(function() {
+$(function(){
 
-  $(window).scroll(function() {
-
-      var height = $('.container').height();
-      var scrollTop = $(window).scrollTop();
-
-      if (scrollTop >= height - 40) {
-          $('.navbrans').addClass('solid-nav');
-      } else {
-          $('.navbrans').removeClass('solid-nav');
+    $("a").click(function(event){
+      if (this.hash !== "") {
+        event.preventDefault();
+  
+        var gato = this.hash;
+  
+        $("html, body").animate({
+          scrollTop: $(gato).offset().top
+        }, 800, function(){
+          window.location.hash = gato;
+        });
       }
-
+    });
+  
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  
   });
-});
+  $(document).ready(function(){
+    $("H3").dblclick(function(){
+      $(this).css("color", "red");
+    });
+  });
+
+  $('.card-title').click(function() {
+    $('.card-text').toggle();
+  });
+  
